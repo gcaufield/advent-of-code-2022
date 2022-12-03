@@ -11,6 +11,7 @@ with open("input.txt") as f:
             current_elf_calories = 0
         else:
             current_elf_calories += int(line)
+    elves.append(current_elf_calories)
 
 elves.sort()
 
